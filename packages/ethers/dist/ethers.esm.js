@@ -6923,7 +6923,7 @@ const version$6 = "address/5.7.0";
 "use strict";
 const logger$7 = new Logger(version$6);
 function getChecksumAddress(address) {
-    if (!isHexString(address, 20)) {
+    if (!isHexString(address, 32)) {
         logger$7.throwArgumentError("invalid address", "address", address);
     }
     address = address.toLowerCase();
@@ -6983,7 +6983,7 @@ function getAddress(address) {
     if (typeof (address) !== "string") {
         logger$7.throwArgumentError("invalid address", "address", address);
     }
-    if (address.match(/^(0x)?[0-9a-fA-F]{40}$/)) {
+    if (address.match(/^(0x)?[0-9a-fA-F]{64}$/)) {
         // Missing the 0x prefix
         if (address.substring(0, 2) !== "0x") {
             address = "0x" + address;
