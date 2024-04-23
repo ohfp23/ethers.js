@@ -10,7 +10,7 @@ import { version } from "./_version";
 const logger = new Logger(version);
 
 function getChecksumAddress(address: string): string {
-    if (!isHexString(address, 20)) {
+    if (!isHexString(address, 32)) {
         logger.throwArgumentError("invalid address", "address", address);
     }
 
@@ -81,7 +81,7 @@ export function getAddress(address: string): string {
         logger.throwArgumentError("invalid address", "address", address);
     }
 
-    if (address.match(/^(0x)?[0-9a-fA-F]{40}$/)) {
+    if (address.match(/^(0x)?[0-9a-fA-F]{64}$/)) {
 
         // Missing the 0x prefix
         if (address.substring(0, 2) !== "0x") { address = "0x" + address; }
