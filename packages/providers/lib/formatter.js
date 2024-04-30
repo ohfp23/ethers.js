@@ -223,7 +223,7 @@ var Formatter = /** @class */ (function () {
     // Requires a hash, optionally requires 0x prefix; returns prefixed lowercase hash.
     Formatter.prototype.hash = function (value, strict) {
         var result = this.hex(value, strict);
-        if ((0, bytes_1.hexDataLength)(result) !== 32) {
+        if ((0, bytes_1.hexDataLength)(result) !== 64) {
             return logger.throwArgumentError("invalid hash", "value", value);
         }
         return result;

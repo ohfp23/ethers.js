@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5179dba7-c5ed-40d5-b533-78abc2347820" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/packages/abi/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abi/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/abstract-signer/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-signer/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/address/lib.esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/address/lib.esm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/address/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/address/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/asm/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/asm/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/base64/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/base64/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/basex/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/basex/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bignumber/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/bignumber/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bytes/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/bytes/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/constants/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/constants/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ethers/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ethers/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/experimental/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/experimental/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hardware-wallets/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hardware-wallets/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hash/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hash/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hdnode/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hdnode/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/json-wallets/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/json-wallets/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/keccak256/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/keccak256/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/logger/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/logger/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/networks/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/networks/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/pbkdf2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/pbkdf2/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/properties/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/properties/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/lib.esm/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib.esm/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/random/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/random/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rlp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rlp/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/sha2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sha2/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/signing-key/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/signing-key/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/solidity/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/solidity/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strings/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strings/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/testcases/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/testcases/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tests/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tests/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/transactions/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/transactions/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/units/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/units/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/wallet/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/wallet/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/wordlists/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/wordlists/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fUsTsaIAiTo9kU5BDhc1Afs4kC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.publish.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/j/opt/js/ethers.js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build-all.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build-libs.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/j/opt/js/ethers.js/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Node.js.publish.js">
+    <configuration name="publish.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="publish.js" working-dir="$PROJECT_DIR$/misc/admin/lib/cmds">
+      <envs>
+        <env name="GITUSERNAME" value="ohfp32" />
+        <env name="GITPASSWORD" value="belktrt9&amp;53gr" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="build-all" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-all" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-libs" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-libs" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.publish.js" />
+      <item itemvalue="npm.build-all" />
+      <item itemvalue="npm.build-libs" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.publish.js" />
+        <item itemvalue="npm.build-all" />
+        <item itemvalue="npm.build-libs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5179dba7-c5ed-40d5-b533-78abc2347820" name="Changes" comment="" />
+      <created>1713867001296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713867001296</updated>
+      <workItem from="1713867002444" duration="653000" />
+      <workItem from="1713869510724" duration="94000" />
+      <workItem from="1713871041334" duration="809000" />
+      <workItem from="1713925381895" duration="8607000" />
+      <workItem from="1713952427215" duration="1002000" />
+      <workItem from="1714371241818" duration="1312000" />
+      <workItem from="1714392955361" duration="10000" />
+      <workItem from="1714393040439" duration="1613000" />
+      <workItem from="1714443348626" duration="4551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/misc/admin/src.ts/cmds/publish.ts</url>
+          <line>100</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/misc/admin/src.ts/cmds/publish.ts</url>
+          <line>68</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/misc/admin/src.ts/cmds/publish.ts</url>
+          <line>72</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

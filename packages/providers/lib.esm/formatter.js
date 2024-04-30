@@ -220,7 +220,7 @@ export class Formatter {
     // Requires a hash, optionally requires 0x prefix; returns prefixed lowercase hash.
     hash(value, strict) {
         const result = this.hex(value, strict);
-        if (hexDataLength(result) !== 32) {
+        if (hexDataLength(result) !== 64) {
             return logger.throwArgumentError("invalid hash", "value", value);
         }
         return result;
