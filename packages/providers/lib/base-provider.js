@@ -2103,7 +2103,7 @@ var BaseProvider = /** @class */ (function (_super) {
                         return [4 /*yield*/, transactionHash];
                     case 2:
                         transactionHash = _a.sent();
-                        params = { transactionHash: this.formatter.hash(transactionHash, true) };
+                        params = { transactionHash: this.formatter.hash(transactionHash, false) };
                         return [2 /*return*/, (0, web_1.poll)(function () { return __awaiter(_this, void 0, void 0, function () {
                                 var result, tx, blockNumber, confirmations;
                                 return __generator(this, function (_a) {

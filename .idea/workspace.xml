@@ -5,47 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5179dba7-c5ed-40d5-b533-78abc2347820" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/packages/abi/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abi/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/abstract-signer/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-signer/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/address/lib.esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/address/lib.esm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/address/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/address/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/asm/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/asm/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/base64/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/base64/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/basex/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/basex/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/bignumber/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/bignumber/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/bytes/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/bytes/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/constants/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/constants/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/contracts/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ethers/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ethers/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/experimental/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/experimental/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/hardware-wallets/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hardware-wallets/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/hash/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hash/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/hdnode/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hdnode/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/json-wallets/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/json-wallets/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/keccak256/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/keccak256/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/logger/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/logger/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/networks/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/networks/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/pbkdf2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/pbkdf2/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/properties/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/properties/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/lib.esm/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib.esm/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/random/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/random/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rlp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rlp/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/sha2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/sha2/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/signing-key/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/signing-key/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/solidity/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/solidity/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/strings/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strings/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/testcases/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/testcases/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/tests/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tests/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/transactions/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/transactions/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/units/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/units/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wallet/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/wallet/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/wordlists/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/wordlists/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/lib/base-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/base-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/lib/base-provider.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/base-provider.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/src.ts/base-provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/src.ts/base-provider.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +110,7 @@
       <workItem from="1714371241818" duration="1312000" />
       <workItem from="1714392955361" duration="10000" />
       <workItem from="1714393040439" duration="1613000" />
-      <workItem from="1714443348626" duration="4551000" />
+      <workItem from="1714443348626" duration="7696000" />
     </task>
     <servers />
   </component>
