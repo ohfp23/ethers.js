@@ -106,19 +106,19 @@ export interface Log {
 export interface TransactionReceipt {
     to: string;
     from: string;
-    contractAddress: string,
+    contractAddress?: string,
     transactionIndex: number,
     root?: string,
     gasUsed: BigNumber,
-    logsBloom: string,
+    logsBloom?: string,
     blockHash: string,
     transactionHash: string,
     logs: Array<Log>,
     blockNumber: number,
-    confirmations: number,
-    cumulativeGasUsed: BigNumber,
-    effectiveGasPrice: BigNumber,
-    byzantium: boolean,
+    confirmations?: number,
+    cumulativeGasUsed?: BigNumber,
+    effectiveGasPrice?: BigNumber,
+    byzantium?: boolean,
     type: number;
     status?: number
 };

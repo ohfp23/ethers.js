@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5179dba7-c5ed-40d5-b533-78abc2347820" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/lib/base-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/base-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/lib/base-provider.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/base-provider.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/src.ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/src.ts/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/src.ts/base-provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/src.ts/base-provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,7 +118,14 @@
       <workItem from="1714371241818" duration="1312000" />
       <workItem from="1714392955361" duration="10000" />
       <workItem from="1714393040439" duration="1613000" />
-      <workItem from="1714443348626" duration="7696000" />
+      <workItem from="1714443348626" duration="12816000" />
+      <workItem from="1714491161752" duration="218000" />
+      <workItem from="1714496345007" duration="193000" />
+      <workItem from="1714551637642" duration="12000" />
+      <workItem from="1714963321763" duration="2080000" />
+      <workItem from="1714978074022" duration="13624000" />
+      <workItem from="1715008638854" duration="7645000" />
+      <workItem from="1715073719473" duration="3671000" />
     </task>
     <servers />
   </component>
