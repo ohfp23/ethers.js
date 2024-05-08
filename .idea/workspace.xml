@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5179dba7-c5ed-40d5-b533-78abc2347820" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/lib/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/abstract-provider/src.ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/abstract-provider/src.ts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/lib/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/lib/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/providers/src.ts/formatter.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +118,8 @@
       <workItem from="1714963321763" duration="2080000" />
       <workItem from="1714978074022" duration="13624000" />
       <workItem from="1715008638854" duration="7645000" />
-      <workItem from="1715073719473" duration="3671000" />
+      <workItem from="1715073719473" duration="3798000" />
+      <workItem from="1715091853970" duration="347000" />
     </task>
     <servers />
   </component>

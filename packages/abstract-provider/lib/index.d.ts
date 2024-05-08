@@ -68,7 +68,7 @@ export interface TransactionReceipt {
     contractAddress?: string;
     transactionIndex: number;
     root?: string;
-    gasUsed?: BigNumber;
+    gasUsed: BigNumber;
     logsBloom?: string;
     blockHash: string;
     transactionHash: string;

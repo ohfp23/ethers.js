@@ -78,7 +78,7 @@ export class Formatter {
             transactionIndex: number,
             // should be allowNull(hash), but broken-EIP-658 support is handled in receipt
             root: Formatter.allowNull(hex),
-            gasUsed: bigNumber,
+            // gasUsed: bigNumber,
             logsBloom: Formatter.allowNull(data),
             blockHash: hash,
             transactionHash: hash,
@@ -220,7 +220,7 @@ export class Formatter {
     // Requires a hash, optionally requires 0x prefix; returns prefixed lowercase hash.
     hash(value, strict) {
         const result = this.hex(value, strict);
-        if (hexDataLength(result) !== 64) {
+        if (hexDataLength(result) !== 32) {
             return logger.throwArgumentError("invalid hash", "value", value);
         }
         return result;

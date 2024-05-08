@@ -1656,7 +1656,7 @@ export class BaseProvider extends Provider {
         return __awaiter(this, void 0, void 0, function* () {
             yield this.getNetwork();
             transactionHash = yield transactionHash;
-            const params = { transactionHash: this.formatter.hash(transactionHash, true) };
+            const params = { transactionHash: this.formatter.hash(transactionHash, false) };
             return poll(() => __awaiter(this, void 0, void 0, function* () {
                 const result = yield this.perform("getTransaction", params);
                 if (result == null) {

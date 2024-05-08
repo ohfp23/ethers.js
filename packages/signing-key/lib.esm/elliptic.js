@@ -44,19 +44,19 @@ function commonjsRequire () {
 	throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
 }
 
-var minimalisticAssert = assert$5;
+var minimalisticAssert = assert;
 
-function assert$5(val, msg) {
+function assert(val, msg) {
   if (!val)
     throw new Error(msg || 'Assertion failed');
 }
 
-assert$5.equal = function assertEqual(l, r, msg) {
+assert.equal = function assertEqual(l, r, msg) {
   if (l != r)
     throw new Error(msg || ('Assertion failed: ' + l + ' != ' + r));
 };
 
-var utils_1$1 = createCommonjsModule(function (module, exports) {
+var utils_1 = createCommonjsModule(function (module, exports) {
 'use strict';
 
 var utils = exports;
@@ -117,7 +117,7 @@ utils.encode = function encode(arr, enc) {
 };
 });
 
-var utils_1 = createCommonjsModule(function (module, exports) {
+var utils_1$1 = createCommonjsModule(function (module, exports) {
 'use strict';
 
 var utils = exports;
@@ -126,10 +126,10 @@ var utils = exports;
 
 
 utils.assert = minimalisticAssert;
-utils.toArray = utils_1$1.toArray;
-utils.zero2 = utils_1$1.zero2;
-utils.toHex = utils_1$1.toHex;
-utils.encode = utils_1$1.encode;
+utils.toArray = utils_1.toArray;
+utils.zero2 = utils_1.zero2;
+utils.toHex = utils_1.toHex;
+utils.encode = utils_1.encode;
 
 // Represent num in a w-NAF form
 function getNAF(num, w, bits) {
@@ -242,9 +242,9 @@ utils.intFromLE = intFromLE;
 
 
 
-var getNAF = utils_1.getNAF;
-var getJSF = utils_1.getJSF;
-var assert$4 = utils_1.assert;
+var getNAF = utils_1$1.getNAF;
+var getJSF = utils_1$1.getJSF;
+var assert$1 = utils_1$1.assert;
 
 function BaseCurve(type, conf) {
   this.type = type;
@@ -290,7 +290,7 @@ BaseCurve.prototype.validate = function validate() {
 };
 
 BaseCurve.prototype._fixedNafMul = function _fixedNafMul(p, k) {
-  assert$4(p.precomputed);
+  assert$1(p.precomputed);
   var doubles = p._getDoubles();
 
   var naf = getNAF(k, 1, this._bitLength);
@@ -347,7 +347,7 @@ BaseCurve.prototype._wnafMul = function _wnafMul(p, k) {
     if (i < 0)
       break;
     var z = naf[i];
-    assert$4(z !== 0);
+    assert$1(z !== 0);
     if (p.type === 'affine') {
       // J +- P
       if (z > 0)
@@ -508,7 +508,7 @@ BasePoint.prototype.validate = function validate() {
 };
 
 BaseCurve.prototype.decodePoint = function decodePoint(bytes, enc) {
-  bytes = utils_1.toArray(bytes, enc);
+  bytes = utils_1$1.toArray(bytes, enc);
 
   var len = this.p.byteLength();
 
@@ -516,9 +516,9 @@ BaseCurve.prototype.decodePoint = function decodePoint(bytes, enc) {
   if ((bytes[0] === 0x04 || bytes[0] === 0x06 || bytes[0] === 0x07) &&
       bytes.length - 1 === 2 * len) {
     if (bytes[0] === 0x06)
-      assert$4(bytes[bytes.length - 1] % 2 === 0);
+      assert$1(bytes[bytes.length - 1] % 2 === 0);
     else if (bytes[0] === 0x07)
-      assert$4(bytes[bytes.length - 1] % 2 === 1);
+      assert$1(bytes[bytes.length - 1] % 2 === 1);
 
     var res =  this.point(bytes.slice(1, 1 + len),
       bytes.slice(1 + len, 1 + 2 * len));
@@ -546,7 +546,7 @@ BasePoint.prototype._encode = function _encode(compact) {
 };
 
 BasePoint.prototype.encode = function encode(enc, compact) {
-  return utils_1.encode(this._encode(compact), enc);
+  return utils_1$1.encode(this._encode(compact), enc);
 };
 
 BasePoint.prototype.precompute = function precompute(power) {
@@ -657,7 +657,7 @@ if (typeof Object.create === 'function') {
 
 
 
-var assert$3 = utils_1.assert;
+var assert$2 = utils_1$1.assert;
 
 function ShortCurve(conf) {
   base.call(this, 'short', conf);
@@ -702,7 +702,7 @@ ShortCurve.prototype._getEndomorphism = function _getEndomorphism(conf) {
       lambda = lambdas[0];
     } else {
       lambda = lambdas[1];
-      assert$3(this.g.mul(lambda).x.cmp(this.g.x.redMul(beta)) === 0);
+      assert$2(this.g.mul(lambda).x.cmp(this.g.x.redMul(beta)) === 0);
     }
   }
 
@@ -1609,7 +1609,7 @@ var curves = exports;
 
 
 
-var assert = utils_1.assert;
+var assert = utils_1$1.assert;
 
 function PresetCurve(options) {
   if (options.type === 'short')
@@ -1829,9 +1829,9 @@ function HmacDRBG(options) {
   this.K = null;
   this.V = null;
 
-  var entropy = utils_1$1.toArray(options.entropy, options.entropyEnc || 'hex');
-  var nonce = utils_1$1.toArray(options.nonce, options.nonceEnc || 'hex');
-  var pers = utils_1$1.toArray(options.pers, options.persEnc || 'hex');
+  var entropy = utils_1.toArray(options.entropy, options.entropyEnc || 'hex');
+  var nonce = utils_1.toArray(options.nonce, options.nonceEnc || 'hex');
+  var pers = utils_1.toArray(options.pers, options.persEnc || 'hex');
   minimalisticAssert(entropy.length >= (this.minEntropy / 8),
          'Not enough entropy. Minimum is: ' + this.minEntropy + ' bits');
   this._init(entropy, nonce, pers);
@@ -1884,8 +1884,8 @@ HmacDRBG.prototype.reseed = function reseed(entropy, entropyEnc, add, addEnc) {
     entropyEnc = null;
   }
 
-  entropy = utils_1$1.toArray(entropy, entropyEnc);
-  add = utils_1$1.toArray(add, addEnc);
+  entropy = utils_1.toArray(entropy, entropyEnc);
+  add = utils_1.toArray(add, addEnc);
 
   minimalisticAssert(entropy.length >= (this.minEntropy / 8),
          'Not enough entropy. Minimum is: ' + this.minEntropy + ' bits');
@@ -1907,7 +1907,7 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
 
   // Optional additional data
   if (add) {
-    add = utils_1$1.toArray(add, addEnc || 'hex');
+    add = utils_1.toArray(add, addEnc || 'hex');
     this._update(add);
   }
 
@@ -1920,14 +1920,14 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
   var res = temp.slice(0, len);
   this._update(add);
   this._reseed++;
-  return utils_1$1.encode(res, enc);
+  return utils_1.encode(res, enc);
 };
 
 'use strict';
 
 
 
-var assert$2 = utils_1.assert;
+var assert$3 = utils_1$1.assert;
 
 function KeyPair(ec, options) {
   this.ec = ec;
@@ -2012,10 +2012,10 @@ KeyPair.prototype._importPublic = function _importPublic(key, enc) {
     // Weierstrass/Edwards points on the other hand have both `x` and
     // `y` coordinates.
     if (this.ec.curve.type === 'mont') {
-      assert$2(key.x, 'Need x coordinate');
+      assert$3(key.x, 'Need x coordinate');
     } else if (this.ec.curve.type === 'short' ||
                this.ec.curve.type === 'edwards') {
-      assert$2(key.x && key.y, 'Need both x and y coordinate');
+      assert$3(key.x && key.y, 'Need both x and y coordinate');
     }
     this.pub = this.ec.curve.point(key.x, key.y);
     return;
@@ -2026,7 +2026,7 @@ KeyPair.prototype._importPublic = function _importPublic(key, enc) {
 // ECDH
 KeyPair.prototype.derive = function derive(pub) {
   if(!pub.validate()) {
-    assert$2(pub.validate(), 'public point not validated');
+    assert$3(pub.validate(), 'public point not validated');
   }
   return pub.mul(this.priv).getX();
 };
@@ -2050,7 +2050,7 @@ KeyPair.prototype.inspect = function inspect() {
 
 
 
-var assert$1 = utils_1.assert;
+var assert$4 = utils_1$1.assert;
 
 function Signature(options, enc) {
   if (options instanceof Signature)
@@ -2059,7 +2059,7 @@ function Signature(options, enc) {
   if (this._importDER(options, enc))
     return;
 
-  assert$1(options.r && options.s, 'Signature without r or s');
+  assert$4(options.r && options.s, 'Signature without r or s');
   this.r = new BN(options.r, 16);
   this.s = new BN(options.s, 16);
   if (options.recoveryParam === undefined)
@@ -2114,7 +2114,7 @@ function rmPadding(buf) {
 }
 
 Signature.prototype._importDER = function _importDER(data, enc) {
-  data = utils_1.toArray(data, enc);
+  data = utils_1$1.toArray(data, enc);
   var p = new Position();
   if (data[p.place++] !== 0x30) {
     return false;
@@ -2209,7 +2209,7 @@ Signature.prototype.toDER = function toDER(enc) {
   var res = [ 0x30 ];
   constructLength(res, backHalf.length);
   res = res.concat(backHalf);
-  return utils_1.encode(res, enc);
+  return utils_1$1.encode(res, enc);
 };
 
 'use strict';
@@ -2219,18 +2219,18 @@ Signature.prototype.toDER = function toDER(enc) {
 
 
 var rand = /*RicMoo:ethers:require(brorand)*/(function() { throw new Error('unsupported'); });
-var assert = utils_1.assert;
+var assert$5 = utils_1$1.assert;
 
 
 
 
-function EC$1(options) {
-  if (!(this instanceof EC$1))
-    return new EC$1(options);
+function EC(options) {
+  if (!(this instanceof EC))
+    return new EC(options);
 
   // Shortcut `elliptic.ec(curve-name)`
   if (typeof options === 'string') {
-    assert(Object.prototype.hasOwnProperty.call(curves_1, options),
+    assert$5(Object.prototype.hasOwnProperty.call(curves_1, options),
       'Unknown curve ' + options);
 
     options = curves_1[options];
@@ -2252,21 +2252,21 @@ function EC$1(options) {
   // Hash for function for DRBG
   this.hash = options.hash || options.curve.hash;
 }
-var ec = EC$1;
+var ec = EC;
 
-EC$1.prototype.keyPair = function keyPair(options) {
+EC.prototype.keyPair = function keyPair(options) {
   return new key(this, options);
 };
 
-EC$1.prototype.keyFromPrivate = function keyFromPrivate(priv, enc) {
+EC.prototype.keyFromPrivate = function keyFromPrivate(priv, enc) {
   return key.fromPrivate(this, priv, enc);
 };
 
-EC$1.prototype.keyFromPublic = function keyFromPublic(pub, enc) {
+EC.prototype.keyFromPublic = function keyFromPublic(pub, enc) {
   return key.fromPublic(this, pub, enc);
 };
 
-EC$1.prototype.genKeyPair = function genKeyPair(options) {
+EC.prototype.genKeyPair = function genKeyPair(options) {
   if (!options)
     options = {};
 
@@ -2292,7 +2292,7 @@ EC$1.prototype.genKeyPair = function genKeyPair(options) {
   }
 };
 
-EC$1.prototype._truncateToN = function _truncateToN(msg, truncOnly) {
+EC.prototype._truncateToN = function _truncateToN(msg, truncOnly) {
   var delta = msg.byteLength() * 8 - this.n.bitLength();
   if (delta > 0)
     msg = msg.ushrn(delta);
@@ -2302,7 +2302,7 @@ EC$1.prototype._truncateToN = function _truncateToN(msg, truncOnly) {
     return msg;
 };
 
-EC$1.prototype.sign = function sign(msg, key, enc, options) {
+EC.prototype.sign = function sign(msg, key, enc, options) {
   if (typeof enc === 'object') {
     options = enc;
     enc = null;
@@ -2367,7 +2367,7 @@ EC$1.prototype.sign = function sign(msg, key, enc, options) {
   }
 };
 
-EC$1.prototype.verify = function verify(msg, signature$1, key, enc) {
+EC.prototype.verify = function verify(msg, signature$1, key, enc) {
   msg = this._truncateToN(new BN(msg, 16));
   key = this.keyFromPublic(key, enc);
   signature$1 = new signature(signature$1, 'hex');
@@ -2407,8 +2407,8 @@ EC$1.prototype.verify = function verify(msg, signature$1, key, enc) {
   return p.eqXToP(r);
 };
 
-EC$1.prototype.recoverPubKey = function(msg, signature$1, j, enc) {
-  assert((3 & j) === j, 'The recovery param is more than two bits');
+EC.prototype.recoverPubKey = function(msg, signature$1, j, enc) {
+  assert$5((3 & j) === j, 'The recovery param is more than two bits');
   signature$1 = new signature(signature$1, enc);
 
   var n = this.n;
@@ -2437,7 +2437,7 @@ EC$1.prototype.recoverPubKey = function(msg, signature$1, j, enc) {
   return this.g.mulAdd(s1, r, s2);
 };
 
-EC$1.prototype.getKeyRecoveryParam = function(e, signature$1, Q, enc) {
+EC.prototype.getKeyRecoveryParam = function(e, signature$1, Q, enc) {
   signature$1 = new signature(signature$1, enc);
   if (signature$1.recoveryParam !== null)
     return signature$1.recoveryParam;
@@ -2462,7 +2462,7 @@ var elliptic_1 = createCommonjsModule(function (module, exports) {
 var elliptic = exports;
 
 elliptic.version = /*RicMoo:ethers*/{ version: "6.5.4" }.version;
-elliptic.utils = utils_1;
+elliptic.utils = utils_1$1;
 elliptic.rand = /*RicMoo:ethers:require(brorand)*/(function() { throw new Error('unsupported'); });
 elliptic.curve = curve_1;
 elliptic.curves = curves_1;
@@ -2472,7 +2472,7 @@ elliptic.ec = ec;
 elliptic.eddsa = /*RicMoo:ethers:require(./elliptic/eddsa)*/(null);
 });
 
-var EC = elliptic_1.ec;
+var EC$1 = elliptic_1.ec;
 
-export { EC };
+export { EC$1 as EC };
 //# sourceMappingURL=elliptic.js.map
